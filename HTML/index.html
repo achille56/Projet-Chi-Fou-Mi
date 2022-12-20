@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chi-Fou-Mi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="https://kit.fontawesome.com/ac11058964.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Le Chi-Fou-Mi</h1>
+        <header>
+            <div id="top">
+                <h2>Règle du jeu :</h2>
+                <p id="para1">
+                    Le jeu Pierre – Feuille – Ciseaux est un petit jeu convivial qui se joue avec les mains à un contre
+                    un ou contre plusieurs adversaires. Mêlant hasard et prise de décision ce petit jeu trouve ses
+                    origines en Chine ou il était appelé « Shoushiling ».
+                </p>
+                <p id="para2">
+                    Si les deux joueurs utilisent la même forme c’est un match nul. A savoir que le jeu se déroule
+                    généralement en une manche gagnante. Mais pour plus de plaisir de jeu, il est bien de jouer au
+                    meilleur des trois manches (le premier a deux points remporte la partie) ou cinq manches (premier à
+                    trois points).A vous de décider !
+                </p>
+            </div>
+        </header>
+
+        <main>
+            <div id="secondMain">
+                <div id="main1">
+                    <ul>Les différentes formes de main :
+                        <li><em>La pierre :</em> est représentée par un poing fermé.</li>
+                        <li><em>La feuille :</em> est représentée par une main à plat, la paume en direction du sol.</li>
+                        <li><em>Les ciseaux :</em> sont représentés par deux doigts formant un V.</li>
+                    </ul>
+                </div>
+                <div id="main2">
+                    <ul>Force de chaque forme :
+                        <li>La pierre écrase les ciseaux et gagne.</li>
+                        <li>La feuille enveloppe la pierre et gagne.</li>
+                        <li>Les ciseaux découpent la feuille et gagnent.</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="secondMain2">
+                <div id="iconsPlayer">
+                    <p>JOUEUR</p>
+                    <div id="Pierre">
+                        <i class="fa-solid fa-hand-back-fist"></i>
+                    </div>
+                    <div id="Feuille">
+                        <i class="fa-solid fa-hand"></i>
+                    </div>
+                    <div id="Ciseaux">
+                        <i class="fa-solid fa-hand-peace"></i>
+                    </div>
+                </div>
+                <div id="iconsIa">
+                    <p>ORDINATEUR</p>
+                    <div id="Pierre2">
+                        <i class="fa-solid fa-hand-back-fist"></i>
+                    </div>
+                    <div id="Feuille2">
+                        <i class="fa-solid fa-hand"></i>
+                    </div>
+                    <div id="Ciseaux2">
+                        <i class="fa-solid fa-hand-peace"></i>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div id="result">
+                <div>
+                    <p>Score du joueur :<span id="scorePlayer"></span></p>
+                </div>
+                <div>
+                    <p>Score de l'ordinateur :<span id="scoreIA"></span></p>
+                </div>
+                <div>
+                    <button type="reset" id="reset" name="reset">nouvelle partie</button>
+                </div>
+                <p>Gagnant :<span id="winner"></span></p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="../JS/app.js"></script>
+</body>
+
+</html>
